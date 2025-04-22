@@ -34,7 +34,7 @@ public class TwoSum {
         TwoSum essai = new TwoSum();
 
         //Calling the methode with the needed arguments
-        int[] result = essai.Solution(tab1,-10);
+        int[] result = essai.Solution(tab1,10);
 
         //Printing out the result of the method has found the target
         if(result.length>0){
